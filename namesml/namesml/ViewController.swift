@@ -27,9 +27,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         keys.append("firstLetter1=\(string.prefix(1))")
         keys.append("firstLetter2=\(string.prefix(2))")
         keys.append("firstLetter3=\(string.prefix(3))")
-        keys.append("firstLetter1=\(string.suffix(1))")
-        keys.append("firstLetter2=\(string.suffix(2))")
-        keys.append("firstLetter3=\(string.suffix(3))")
+        keys.append("lastLetter1=\(string.suffix(1))")
+        keys.append("lastLetter2=\(string.suffix(2))")
+        keys.append("laststLetter3=\(string.suffix(3))")
         
         print("keys: \(keys)")
         
